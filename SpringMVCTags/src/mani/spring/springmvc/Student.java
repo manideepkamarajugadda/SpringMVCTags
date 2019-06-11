@@ -9,8 +9,8 @@ public class Student
 	private String country;
 	
 	private LinkedHashMap<String, String> countryOptions;
-	
-	
+	private String favCourse;
+	private String[] operatingSystems;
 	public Student()
 	{
 		countryOptions = new LinkedHashMap<>();
@@ -50,6 +50,23 @@ public class Student
 	{
 		return countryOptions;
 	}
+
+	public String getFavCourse() {
+		return favCourse;
+	}
+
+	public void setFavCourse(String favCourse) {
+		this.favCourse = favCourse;
+	}
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
+	}
+	
 	
 	
 	

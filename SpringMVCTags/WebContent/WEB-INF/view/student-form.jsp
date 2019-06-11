@@ -26,7 +26,25 @@
 		</form:select>
 		
 		<br><br>
-		<input type="submit"/>
+		
+		Favourite course: 
+		
+		Computer Science <form:radiobutton path="favCourse" value="Computer Science"/>
+			Art <form:radiobutton path="favCourse" value="Art"/>
+			Music <form:radiobutton path="favCourse" value="Music"/>
+			Business <form:radiobutton path="favCourse" value="Business"/>
+		
+		<br><br>
+		
+		Favourite OS :
+		
+		Linux <form:checkbox path="operatingSystems" value="Linux"/>
+		Windows <form:checkbox path="operatingSystems" value="Windows"/>
+		MacOS <form:checkbox path="operatingSystems" value="MacOS"/>
+		
+		
+		<br><br>
+		<input type="submit" value="submit"/>
 		
 		
 		
